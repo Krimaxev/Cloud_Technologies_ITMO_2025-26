@@ -1,0 +1,7 @@
+FROM python:3.12-slim
+WORKDIR /app
+COPY . .
+
+RUN useradd --create-home appuser
+USER appuser
+CMD ["python", "app2.py"]

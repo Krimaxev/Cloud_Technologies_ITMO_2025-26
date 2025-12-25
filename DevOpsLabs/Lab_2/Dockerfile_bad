@@ -1,0 +1,6 @@
+FROM python:latest
+ADD . /app
+CMD ["python", "/app/app.py"]
+
+
+

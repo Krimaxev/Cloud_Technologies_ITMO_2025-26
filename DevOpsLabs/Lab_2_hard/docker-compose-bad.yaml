@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  service1:
+    build: .
+    container_name: app_2
+    privileged: true
+
+  service2:
+    build: .
+    command: python /app/app2.py
+    container_name: app2
+    privileged: true

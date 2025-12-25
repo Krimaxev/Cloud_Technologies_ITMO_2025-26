@@ -1,0 +1,25 @@
+services:
+  service1:
+    build: .
+    container_name: app_1
+    command: python /app/app.py
+    networks:
+      - network1
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+          cpus: "0.5"
+
+  service2:
+    build: .
+    container_name: app_2
+    command: python /app/app2.py
+    networks:
+      - network2
+
+networks:
+  network1:
+    driver: bridge
+  network2:
+    driver: bridge
