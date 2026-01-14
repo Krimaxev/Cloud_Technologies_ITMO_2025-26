@@ -1,0 +1,41 @@
+IT Tower;Service Family;Service Type;Service Sub Type;Service Usage Type;Product Code;Usage Type; [lineItem/Operation];lineItem/LineItemDescription
+Analytics;Analytics;Amazon Redshift;Compute Nodes;RA Node;AmazonRedshift;%Node:ra%;;
+Analytics;Analytics;Amazon Redshift;Managed Storage;RMS;AmazonRedshift;%RMS%;;
+Analytics;Analytics;Amazon Redshift;Query Processing;Data Scanned;AmazonRedshift;%DataScanned%;;
+Analytics;Analytics;Amazon Redshift;Compute Nodes;DC Node;AmazonRedshift;%Node:dc%;;
+Analytics;Analytics;Amazon Redshift;Compute Nodes;DS Node;AmazonRedshift;%Node:ds%;;
+Security, Identity, & Compliance;Security and Identity;AWS Directory Service;Additional Costs;Tax;AWSDirectoryService;;;Tax%
+Security, Identity, & Compliance;Security and Identity;AWS Directory Service;Microsoft AD;DC Usage;AWSDirectoryService;%MicrosoftAD-DC-Usage;;
+Security, Identity, & Compliance;Security and Identity;AWS Directory Service;Simple AD;Directory Usage;AWSDirectoryService;%SimpleAD-Usage;;
+Security, Identity, & Compliance;Security and Identity;AWS Directory Service;Small Directory;Directory Usage;AWSDirectoryService;%Small-Directory-Usage;;
+Security, Identity, & Compliance;Security and Identity;AWS Directory Service;AD Connector;Large Connector Usage;AWSDirectoryService;%Large-ADConnector-Usage;;
+Storage;Archive Storage;Amazon Glacier;Capacity;Provisioned Capacity;AmazonGlacier;%ProvisionedCapacityUnit;;
+Storage;Archive Storage;Amazon Glacier;Storage;Timed Storage;AmazonGlacier;%TimedStorage-ByteHrs;;
+Storage;Archive Storage;Amazon Glacier;Requests;Tier 3;AmazonGlacier;%Requests-Tier3;;
+Storage;Archive Storage;Amazon Glacier;Requests;Tier 1;AmazonGlacier;%Requests-Tier1;;
+Storage;Archive Storage;Amazon Glacier;Data Lifecycle;Early Delete;AmazonGlacier;%EarlyDelete%;;
+Storage;Object Storage;Amazon S3;Data Lifecycle;Early Delete GDA;AmazonS3;%EarlyDelete-GDA;;
+Storage;Object Storage;Amazon S3;Data Lifecycle;Early Delete INT;AmazonS3;%EarlyDelete-INT;;
+Storage;Object Storage;Amazon S3;Data Lifecycle;Early Delete ZIA;AmazonS3;%EarlyDelete-ZIA%;;
+Storage;Object Storage;Amazon S3;Data Lifecycle;Early Delete SIA;AmazonS3;%EarlyDelete-SIA%;;
+Storage;Object Storage;Amazon S3;Requests;Tier 1;AmazonS3;%Requests%Tier1;;
+Storage;Object Storage;Amazon S3;Requests;Tier 2;AmazonS3;%Requests%Tier2;;
+Storage;Object Storage;Amazon S3;Requests;Tier 3;AmazonS3;%Requests%Tier3;;
+Storage;Object Storage;Amazon S3;Requests;Tier 4;AmazonS3;%Requests%Tier4;;
+Storage;Object Storage;Amazon S3;Requests;Tier 5;AmazonS3;%Requests%Tier5;;
+Storage;Object Storage;Amazon S3;Requests;Tier 6;AmazonS3;%Requests%Tier6;;
+Storage;Object Storage;Amazon S3;Tagging;Tag Storage Hours;AmazonS3;%TagStorage-TagHrs%;;
+Application Integration & Serverless;Application Services;Amazon SNS;Message Delivery;HTTP Delivery Attempts;AmazonSNS;%DeliveryAttempts-HTTP;;
+Application Integration & Serverless;Application Services;Amazon SNS;Message Delivery;SQS Delivery Attempts;AmazonSNS;%DeliveryAttempts-SQS;;
+Application Integration & Serverless;Application Services;Amazon SNS;SMS;SMS Price;AmazonSNS;%SMS-Price%;;
+Application Integration & Serverless;Application Services;Amazon SNS;SMS;SMS Sent;AmazonSNS;%SMS-Sent%;;
+Application Integration & Serverless;Application Services;Amazon SNS;Message Delivery;APNS Delivery Attempts;AmazonSNS;%DeliveryAttempts-APNS%;;
+Machine Learning;Machine Learning;Amazon Translate;Text Processing;Translate Text;translate;%TranslateText;;
+Machine Learning;Machine Learning;Amazon Transcribe;Audio Processing;Streaming Audio;transcribe;%StreamingAudio;%StreamingAudio;
+Machine Learning;Machine Learning;Amazon Transcribe;Audio Processing;Batch Transcription;transcribe;%TranscribeAudio;TranscribeAudio;
+Developer Tools;Developer Tools;AWS CodePipeline;Additional Costs;Tax;AWSCodePipeline;;;Tax%
+Developer Tools;Developer Tools;AWS CodePipeline;Pipelines;Trial Pipelines;AWSCodePipeline;%trialPipeline%;;
+Developer Tools;Developer Tools;AWS CodeBuild;Build Services;Build Execution;CodeBuild;;;
+Machine Learning;Machine Learning;Amazon Machine Learning;Training;Train Model;AmazonML;%AMLBoxUsage;TrainModel;
+Machine Learning;Machine Learning;Amazon Machine Learning;Evaluation;Evaluate Model;AmazonML;%AMLBoxUsage;EvaluateModel;
+Machine Learning;Machine Learning;Amazon Polly;Speech Synthesis;Text to Speech;AmazonPolly;;;
